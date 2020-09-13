@@ -27,7 +27,7 @@ A simple approach is to do linear search, i.e
 * If x matches with an element, return the index
 * If x doesn’t match with any of elements, return -1
 
-** Time Complexity ** : O(n)
+**Time Complexity** : O(n)
 
 Linear search is rarely used practically because other search algorithms such as the binary search algorithm and hash tables allow 
 significantly faster searching comparison to Linear search.
@@ -39,7 +39,9 @@ Search a sorted array by repeatedly dividing the search interval in half. Begin 
 value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise 
 narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
 
-** Time Complexity ** : O(Log n)
+**Time Complexity** : O(Log n)
+
+**Auxiliary Space**: O(1) in case of iterative implementation. In case of recursive implementation, O(Logn) recursion call stack space.
 
 We basically ignore half of the elements just after one comparison.
 
@@ -53,7 +55,7 @@ We basically ignore half of the elements just after one comparison.
 
 Fibonacci Search is a comparison-based technique that uses Fibonacci numbers to search an element in a sorted array.
 
-** Similarities with Binary Search **
+**Similarities with Binary Search**
 1. Works for sorted arrays
 2. A Divide and Conquer Algorithm
 3. Has Log n time complexity
