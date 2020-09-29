@@ -64,3 +64,12 @@ Fibonacci Search is a comparison-based technique that uses Fibonacci numbers to 
 1. Fibonacci Search divides given array in unequal parts
 2. Binary Search uses division operator to divide range. Fibonacci Search doesn’t use /, but uses + and -. The division operator may be costly on some CPUs.
 3. Fibonacci Search examines relatively closer elements in subsequent steps. So when input array is big that cannot fit in CPU cache or even in RAM, Fibonacci Search can be useful.
+
+### Sorting Algorithms
+
+* Selection Sort
+* Bubble Sort
+* Insertion Sort
+* Quick Sort
+* Merge Sort
+* Heap Sort
